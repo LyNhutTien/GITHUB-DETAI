@@ -1,0 +1,157 @@
+span .fieldRequired {
+	color:#DD0000;
+}
+
+.fieldRequired {
+	background-attachment:scroll;
+	background-color:transparent;
+	background-image:url("../images/required.gif");
+	background-position:center;
+	background-repeat:no-repeat;
+	color:#DD0000;
+	padding-bottom:0px;
+	padding-left:8px;
+	padding-right:5px;
+	padding-top:0px;
+}
+
+.HeaderRow {
+    margin-bottom:2px;
+}
+
+.HeaderRow h4 {
+    min-height: 37px;
+    background-color: #FFF8C9;
+    border-bottom: solid 1px #E7AB0A;
+    font: 18px "Myriad Pro Bold Condensed", Tahoma, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    padding: 7px 0px 2px 10px;
+
+}
+.navbar-inverse {
+    background: url("../images/headerbg.jpg");       
+    border-color:white;
+    border:0px;
+    color:#bdbd11;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form     {
+        border-color:white;
+    }
+.navbar {
+    border-radius: 0px;
+}
+.navbar-brand { margin-top:-14px;
+}
+.Notice {
+    background-color: #FFF8C9;
+    border-radius:5px;
+    border:solid 1px #E7AB0A;
+    text-align:justify;
+    padding:20px 30px 20px 30px;
+}
+.Title{text-align:center;width:100%;font-size:18px;font-weight:bold;}
+.Error
+{color:Red;	
+	padding-left:5px;
+}
+.Error ul{list-style-type:circle;}
+.TextLabel {    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;}
+    .TextLabel i {font-weight: 300; margin-left:5px;
+    }
+
+/*CSS Data grid*/
+	
+.GridBorder {	
+	border-collapse:collapse;
+	border: #E7AB0A 1px solid;
+	
+}
+.GridBorder tr td {	
+	border-collapse:collapse;
+	border: #E7AB0A 1px solid;
+	
+}
+
+.GridBorder th  {	
+	border-collapse:collapse;
+	border: #E7AB0A 1px solid;
+	
+}
+.GridBorder th b {float:left}
+
+.GridHeader {
+	font:bold 11px Tahoma,Arial, Helvetica, sans-serif;
+	color:#000000;
+	padding:5px 0px 5px 5px;
+	background:#fff8c9;
+	height:33px;
+	
+    border-bottom: solid 1px #E7AB0A;
+}
+
+
+.GridRow {
+	font:normal 11px Tahoma,Arial, Helvetica, sans-serif;
+	color:#000000;
+	padding:5px 0px 5px 5px;
+	height:30px;
+	border: #E7AB0A 1px solid;
+}
+.GridRow A {
+	color:#000000;
+	text-decoration:none
+}
+.GridRow A:hover{
+	color:#0023ff;
+	text-decoration:none
+}
+
+.GridAlterRow {
+	font:normal 11px Tahoma,Arial, Helvetica, sans-serif;
+	color:#000000;
+	padding:5px 0px 5px 5px;
+	background-color:#fff8c9;	
+	height:25px;
+	border: #E7AB0A 1px solid;
+}
+.GridAlterRow A {
+	color:#000000;
+	text-decoration:none
+}
+.GridAlterRow A:hover{
+	color:#0023ff;
+	text-decoration:none
+}
+
+.tbl_SelectedRow {
+	font:normal 11px Tahoma,Arial, Helvetica, sans-serif;
+	color:#0023ff;
+	padding:5px 0px 5px 5px;
+	background-color:#c5dff8;
+	border: #E7AB0A 1px solid;
+}
+.tbl_SelectedRow A {
+	color:#0023ff;
+	text-decoration:none
+}
+.tbl_SelectedRow A:hover{
+	color:#0023ff;
+	text-decoration:none
+}
+
+.SubGridHeader {
+	
+	color:#000000;
+	padding:5px 0px 5px 5px;
+	height:30px;
+	border: #E7AB0A 1px solid;
+    text-align:center;
+    background:#fff8c9;
+}
+/*end css datagrid*/
+
+.CursorLink {cursor:pointer;font:normal 11px Tahoma,Arial, Helvetica, sans-serif;padding:5px;
+}
